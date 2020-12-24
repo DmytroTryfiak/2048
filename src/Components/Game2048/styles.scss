@@ -11,6 +11,7 @@ $dark-color: rgb(100, 100, 100);
 body {
     background-color: $light-color;
 }
+
 .game2048 {
     background-color: $light-color;
     width: 450px;
@@ -25,12 +26,14 @@ body {
     color: $light-color;
     background-color: rgb(132, 132, 132);
 }
+
 .title {
     font-size: 48px;
     width: 100%;
     margin-bottom: 10px;
     text-align: center;
 }
+
 .score, .bestScore {
     font-size: 20px;
     background-color: $dark-color;
