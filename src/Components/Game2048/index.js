@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import game from './logic';
 import './styles.scss';
-let count = 0
+
 function Game2048() {
     const [data, setData] = useState(game.grid)
     const [continueGame, setContinueGame] = useState(false)
@@ -50,7 +50,6 @@ function Game2048() {
     const setContinue = () => {
         setContinueGame(true)
     }
-    console.log('render:' + count++)
     return (
         <div className="game2048">
             <div className="header">
