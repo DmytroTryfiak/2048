@@ -160,6 +160,7 @@ class Game2048 {
             this.addTile()
             this.gameOver = this.isGameOver();
             this.writeToStorage()
+            this.moved=false
         }
     }
 

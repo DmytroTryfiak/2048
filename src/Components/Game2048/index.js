@@ -39,7 +39,6 @@ function Game2048() {
             return
         game.updateGrid()
         setData([...game.grid])
-        game.moved = false
     }
     const makeStep = (type) => {
         if (game.moved)
